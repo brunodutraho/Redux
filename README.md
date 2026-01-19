@@ -1,37 +1,48 @@
-# 🔄 Implementação React-Redux
+# 🔄 Implementação React-Redux – Gerenciamento de Estado Global
 
-Projeto criado para demonstrar a **diferença entre componentes de estado com conexão direta (useState)** e **conexão indireta utilizando Redux**.  
-O objetivo foi consolidar os fundamentos de **gerenciamento de estado global** em aplicações React.
+Projeto desenvolvido para demonstrar, na prática, a **diferença entre gerenciamento de estado local com useState** e **gerenciamento de estado global utilizando Redux** em aplicações React.
 
----
-
-## 📌 Sobre o projeto
-
-- Implementação simples de **React-Redux**  
-- Comparação entre uso de **useState** e **Redux**  
-- Estrutura inicial gerada com **Create React App**  
-- Licença aberta (**MIT**)  
+O foco é consolidar os fundamentos de **arquitetura de estado**, entendendo quando e por que utilizar Redux em cenários reais.
 
 ---
 
-## 📂 Estrutura do repositório
+## 🎯 Objetivo do Projeto
 
-- `src/` → Código-fonte principal em React  
-- `package.json` → Dependências e scripts  
-- `package-lock.json` → Controle de versões das dependências  
-- `.gitignore` → Configuração de arquivos ignorados  
-- `README.md` → Documentação do projeto  
+- Comparar abordagens de estado local e global  
+- Demonstrar o funcionamento do Redux de forma simples e didática  
+- Consolidar conceitos essenciais para aplicações React escaláveis  
+- Servir como base de estudo e referência para projetos maiores  
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 📌 Sobre a Implementação
 
-- **React** → Biblioteca para construção de interfaces  
-- **Redux** → Gerenciamento de estado global  
-- **JavaScript (ES6+)** → Linguagem principal  
-- **HTML5** → Estrutura da aplicação  
-- **CSS3** → Estilização básica  
-- **Create React App** → Ferramenta para inicialização rápida de projetos  
+- Componentes com estado local usando **useState**  
+- Componentes conectados ao **Redux Store**  
+- Separação clara entre **actions**, **reducers** e **store**  
+- Estrutura inicial criada com **Create React App**  
+- Projeto focado em aprendizado e clareza de conceitos  
+
+---
+
+## 📂 Estrutura do Repositório
+
+src/  
+package.json  
+package-lock.json  
+.gitignore  
+README.md  
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **React** – Biblioteca para construção de interfaces  
+- **Redux** – Gerenciamento de estado global  
+- **JavaScript (ES6+)** – Linguagem principal  
+- **HTML5** – Estrutura da aplicação  
+- **CSS3** – Estilização básica  
+- **Create React App** – Setup inicial do projeto  
 
 ---
 
@@ -39,10 +50,11 @@ O objetivo foi consolidar os fundamentos de **gerenciamento de estado global** e
 
 Durante o desenvolvimento deste projeto, foram praticados:
 
-- Diferença entre gerenciamento de estado local com **useState** e global com **Redux**  
-- Criação de **store**, **reducers** e **actions**  
-- Conexão de componentes com Redux usando **Provider** e **connect/useSelector**  
-- Estruturação inicial de projetos com Create React App  
+- Diferença entre estado local (**useState**) e estado global (**Redux**)  
+- Criação e organização de **store**, **reducers** e **actions**  
+- Conexão de componentes ao Redux usando **Provider**, **connect**, **useSelector** e **useDispatch**  
+- Boas práticas iniciais de estruturação de aplicações React  
+- Entendimento de quando o uso de Redux é realmente necessário  
 
 ---
 
@@ -53,4 +65,4 @@ Você pode utilizá-lo, modificá-lo e distribuí-lo livremente, desde que mante
 
 ---
 
-✨ *Projeto criado para consolidar conceitos de gerenciamento de estado em React com Redux.*
+✨ *Projeto criado para consolidar conceitos fundamentais de gerenciamento de estado em aplicações React com Redux.*
